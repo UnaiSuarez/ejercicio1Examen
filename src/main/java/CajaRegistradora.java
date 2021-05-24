@@ -19,12 +19,12 @@ public class CajaRegistradora {
         int resultado = entregar - coste;
         HashMap<Integer,List<Integer>> devolver = sacarBilletes(resultado);
         System.out.println("Coste de:"+coste+", se ha pagado con: "+entregar);
-            System.out.println("Deve devolver: "+devolver.get(50).size()+" billetes de 50€");
-            System.out.println("Deve devolver: "+devolver.get(20).size()+" billetes de 20");
-            System.out.println("Deve devolver: "+devolver.get(10).size()+" billetes de 10€");
-            System.out.println("Deve devolver: "+devolver.get(5).size()+" billetes de 5€");
-            System.out.println("Deve devolver: "+devolver.get(2).size()+" monedas de 2€");
-            System.out.println("Deve devolver: "+devolver.get(1).size()+" monedas de 1€");
+            System.out.println("Debe devolver: "+devolver.get(50).size()+" billetes de 50€");
+            System.out.println("Debe devolver: "+devolver.get(20).size()+" billetes de 20");
+            System.out.println("Debe devolver: "+devolver.get(10).size()+" billetes de 10€");
+            System.out.println("Debe devolver: "+devolver.get(5).size()+" billetes de 5€");
+            System.out.println("Debe devolver: "+devolver.get(2).size()+" monedas de 2€");
+            System.out.println("Debe devolver: "+devolver.get(1).size()+" monedas de 1€");
 
     }
 
